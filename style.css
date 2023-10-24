@@ -1,0 +1,121 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-gap: 30px;
+  padding: 20px;
+  max-width: 900px;
+  text-align: center;
+}
+
+
+.header {
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 10px;
+  
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+  text-align: center; 
+}
+
+
+
+.user-info {
+  background-color: #bb6060;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.user-avatar img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.usuario {
+  text-align: center;
+}
+
+.usuario label {
+  display: grid;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.usuario button.editar-foto {
+  background-color: #652f2f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.botones-acciones {
+  background-color: #bb6060;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.botones-acciones button {
+  background-color: #652f2f;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.qr-images img {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 20px;
+}
+
+.qr-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-images img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
